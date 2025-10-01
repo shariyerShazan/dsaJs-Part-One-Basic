@@ -3,7 +3,7 @@ let n = 7; // height
 for (let row = 0; row < n; row++) {
   let line = "";
 
-  // ===== A =====
+  //! ===== A =====
   for (let col = 0; col < n; col++) {
     if (
       (row === 0 && col > 0 && col < n - 1) || // top line
